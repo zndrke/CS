@@ -21,3 +21,9 @@
 2. 유닉스
    - tail -f test.txt | iconv -f cp949 -t utf8
    - tail -f test.txt | pgconv (alias)
+
+
+
+- luit는 서로다른 character set을 사용하는 터미널 에뮬레이터를 번역하기 위한 유틸 프로그램
+- luit는 input과 output이 상호작용하는 프로그램을 전환
+- iconv는 고정된 스트링이나 문자파일을 전환하기 위해 사용
